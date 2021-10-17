@@ -1,0 +1,9 @@
+Create a query that takes in a date and a keyword.
+User's query will be taken and searched through the following link 'https://www.gdeltproject.org/'
+
+We will be extracting: 
+  Titles/Keywords:
+    Titles: <a> within <div> with class "clean-grid-grid-post-title"
+    Snippets: <p> within <div> with class "clean-grid-grid-post-snippet"
+  Dates: <span> within <div> with class "clean-grid-grid-post-date clean-grid-grid-post-meta"
+
